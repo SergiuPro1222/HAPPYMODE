@@ -7,9 +7,9 @@ local TweenService = game:GetService('TweenService')
 local RenderStepped = RunService.RenderStepped
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
-local PG = protectgui or (syn and syn.protect_gui) or (function() end)
+local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end)
 local dashwqhgjusjcaseqw = Instance.new('ScreenGui')
-PG(dashwqhgjusjcaseqw)
+ProtectGui(dashwqhgjusjcaseqw)
 dashwqhgjusjcaseqw.Name = ""
 dashwqhgjusjcaseqw.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 dashwqhgjusjcaseqw.ResetOnSpawn = false
